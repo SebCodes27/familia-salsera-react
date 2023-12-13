@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/familia-salsera-react/static/css/main.f855e6bc.css",
+    "main.js": "/familia-salsera-react/static/js/main.64e9ac02.js",
+    "static/js/787.7fbeb231.chunk.js": "/familia-salsera-react/static/js/787.7fbeb231.chunk.js",
+    "static/media/logo.svg": "/familia-salsera-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/familia-salsera-react/index.html",
+    "main.f855e6bc.css.map": "/familia-salsera-react/static/css/main.f855e6bc.css.map",
+    "main.64e9ac02.js.map": "/familia-salsera-react/static/js/main.64e9ac02.js.map",
+    "787.7fbeb231.chunk.js.map": "/familia-salsera-react/static/js/787.7fbeb231.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.64e9ac02.js"
+  ]
+}
