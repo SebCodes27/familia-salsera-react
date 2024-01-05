@@ -16,7 +16,6 @@ import locImage from "./images/location3.png";
 import schImage from "./images/schedule.jpg";
 import pImg1 from "./images/perkImage1.jpg";
 import pImg2 from "./images/perkImage2.jpg";
-import { calWidget } from './Utils';
 
 class App extends React.Component {
   constructor(props) {
