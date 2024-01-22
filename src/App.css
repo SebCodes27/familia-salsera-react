@@ -135,10 +135,10 @@ iframe {
   height:0;
 }
 
-.videoWrapper video, .videoWrapper iframe {
+.videoWrapper video {
   position:absolute;
-  top:0;
   inset-block-start:0;
+  left:0;
   width:100%;
   height:100%;
 }
@@ -223,7 +223,7 @@ header {
   align-items:center;
   position:fixed;
   top:0;
-  z-index:2;
+  z-index:3;
 }
 
 h1 {
@@ -279,7 +279,7 @@ nav > ul > li > a:hover {
   display:none;
 }
 
-#tipsNav, #tipsNav1 {
+#tipsNav {
   transition: .5s;
   text-shadow: -1px 1px 10px gold;
 }
@@ -672,22 +672,21 @@ nav > ul > li > a:hover {
       color:inherit;
   }
 
-  .second-nav.responsive {
+  .second-nav {
+      padding-top: 5px;
       background-color:rgb(255, 255, 255);
-      padding-top: 100px;
       width:100%;
       display:flex;
       position:fixed;
-      z-index: 0;
+      z-index: 1;
   }
   
   .hidden-nav {
-      padding-top:100px;
       height:200px;
       display:flex;
       flex-wrap:wrap;
       justify-content:center;
-      z-index: 0;
+      z-index: 1;
   }
   
   #homeNav1, #tipsNav1, #schedNav1, #perkNav1, #testNav1, #aboutNav1 {
@@ -703,13 +702,10 @@ nav > ul > li > a:hover {
 }
 
 @media screen and (max-width: 420px) {
-  .hidden-nav {
-      padding-top: 100px;
+  .second-nav {
+      padding-top: 30px;
   }
   
-  .ex-pad {
-      padding-top: 138px;
-  }
 }
 
 /* Calendar Screen Changes */
@@ -735,7 +731,8 @@ nav > ul > li > a:hover {
 
 @media screen and (max-width: 480px) {
   .button1 {
-      font-size:2.5em;
+      font-size:1.5em;
+      padding: 10px;
   }
 
   .tm-vid {
@@ -754,13 +751,18 @@ nav > ul > li > a:hover {
 
 @media only screen and (max-width: 720px) {
   .text {
-      font-size:2.2em;
+      font-size:1.3em;
   }
 }
 
-/* Testimonials and Customer Perks Phone Screen Changes */
+/* Salsa Secrets, Testimonials, and Customer Perks Phone Screen Changes */
 
 @media screen and (max-width: 1050px) {
+  
+  .fortyPerc {
+    width: 100%;
+  }
+
   .fiftyPerc {
       width: 95%;
       display: block;
@@ -801,6 +803,37 @@ nav > ul > li > a:hover {
 
   #intro-vid {
       padding-top: 150px;
+  }
+
+  .short-vid {
+    max-width: 90vw;
+    width: fit-content;
+  }
+
+  .tall-vid {
+    padding-top: 0;
+    height:fit-content
+  }
+
+  .side-by-side {
+    padding: 0;
+    margin: 0;
+  }
+
+  .frame {
+    width: 95%;
+  }
+
+  #home, #home1 {
+    font-size: 2em;
+  }
+
+  .langButton {
+    font-size: 1.2em;
+  }
+
+  .large-text {
+    font-size: 1.1em;
   }
 }
 

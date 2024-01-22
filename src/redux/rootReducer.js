@@ -1,12 +1,8 @@
 import { combineReducers } from 'redux';
-
-// Import the reducers here:
-
-/* import { countReducer } from '../reducersAndActions/counterReducer'; */
+// import { menuReducer } from '../reducersAndActions/menuReducer';
 
 const rootReducer = combineReducers({
-
-    /* counter: countReducer, */
+   // menu: menuReducer,
 })
 
 export default rootReducer;
